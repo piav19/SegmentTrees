@@ -20,7 +20,7 @@ public class Main {
 
         return tree[i];
     }
-
+    //Range sum in segment trees
     public static int getSumUtil(int i,int si,int sj,int qi,int qj) {
         if(qj<=si||qi>=sj){
             return 0;
